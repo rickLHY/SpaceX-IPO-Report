@@ -1,0 +1,20 @@
+# Five-slide verification (2026-11-18)
+
+Scope: `tesla-prices`, `tesla-comove`, `event`, `p-fh`, `lockup` only.
+
+Run `python decks/space-x-ipo/research/verify_market.py` from the repository root. It verifies SHA-256 hashes of the original UTF-8 Yahoo responses in `market-snapshot.json`, checks dates/nulls/duplicates, reproduces the three market charts, and prints `market-audit.json`. No network or third-party Python packages are needed. The snapshot includes exact request URLs and UTC retrieval time. Existing prices and computed chart values were preserved after reproduction.
+
+## Market methods and limits
+
+- Period: 2026-06-12 through 2026-11-13 inclusive, 108 common closing-price observations. Normalization: 100 × P(t)/P(2026-06-12). All three Close series equal their Adj Close series throughout this snapshot. S&P 500 is a price index; this is not a dividend-reinvestment total-return study.
+- Simple daily returns: P(t)/P(previous common trading day) − 1. No imputation; calendars align across all three responses. No independent exchange-calendar audit or second-vendor daily reconciliation was performed.
+- Correlation sample: returns dated 2026-06-22 through 2026-11-13, 103 observations, excluding IPO-week returns. The first observation uses 6/18 close as denominator. Pearson correlations are 0.653655 (TSLA/market), 0.448659 (SPCX/market), 0.356203 (SPCX/TSLA). Separate same-sample OLS regressions including intercepts on S&P returns give residual correlation 0.093050. A partial-correlation identity independently checks this result. This does not identify a causal market effect or rule out an independent Musk factor.
+- Event models: separate OLS with intercept, 80 daily returns dated 2026-06-22–10-13. AR(t) = r(t) − [estimated alpha + estimated beta × market return(t)]. The 10/19–10/23 event window is outside the estimation sample. No complete formal event-window significance procedure was performed; parameter-estimation uncertainty, serial dependence, distributional assumptions and multiple comparisons have not been tested.
+- The original SPCX 8.63% reference approximately used twice the sample residual SD (n−1 denominator); regression residual SD with n−2 gives 8.68% (SPCX) and 5.03% (TSLA). A shared SPCX line is neither a TSLA test nor a complete significance test. It was removed along with the unsupported blanket claim of no significant returns.
+
+## Official checks
+
+- [SpaceX Q3 2026 10-Q, MD&A](https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm): 10/20 earnings-call disclosure of committees evaluating a potential combination; no determination made.
+- [Tesla IR Q3 schedule](https://ir.tesla.com/press-release/tesla-third-quarter-2026-production-deliveries-and-deployments): financial release scheduled after market close on 10/21. Proximity to earnings prevents identifying the combination announcement's independent effect here.
+- [Field & Hanka DOI](https://doi.org/10.1111/0022-1082.00334): publisher abstract confirms 1,948 lockups, −1.5% three-day abnormal return, permanent 40% increase in average volume. These are sample results, not SpaceX predictions of equal magnitude.
+- [IPO FWP, Offering Summary](https://www.sec.gov/Archives/edgar/data/1181412/000162828026040610/spacexfwp.htm) and [final 424B4, pp.259–260, 272–273](https://www.sec.gov/Archives/edgar/data/1181412/000162828026042639/spaceexplorationtechnologi.htm): founder 366-day group, other 180-day group, and selected extended/staggered group. The final prospectus controls the precise terms. It lists 12/8/2026 for remaining 180-day shares, earlier conditional releases, and a 2027 earnings-linked schedule for selected holders. It lists 6/12/2027 for Musk (366 days from 6/11/2026), with trading-close wording, no automatic early release, and contractual exceptions/waiver provisions. That date is Saturday; an exact tradability date is not asserted. The selected-holder marker is illustrative of phased releases, not a single release date. Future actual earnings dates, final sale eligibility, waiver changes and actual selling remain unverified.

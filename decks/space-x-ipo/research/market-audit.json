@@ -1,0 +1,69 @@
+{
+  "retrieved_at_utc": "2026-11-18T13:58:42.857553+00:00",
+  "price_period": [
+    "2026-06-12",
+    "2026-11-13"
+  ],
+  "common_price_dates": 108,
+  "missing_or_duplicate_common_observations": 0,
+  "close_vs_adjclose_max_difference": {
+    "SPCX": 0.0,
+    "TSLA": 0.0,
+    "%5EGSPC": 0.0
+  },
+  "cumulative_returns_pct": {
+    "SPCX": -13.56942948244595,
+    "TSLA": -3.9883846534941148,
+    "%5EGSPC": 1.752145091569246
+  },
+  "correlation_return_period": [
+    "2026-06-22",
+    "2026-11-13"
+  ],
+  "common_returns": 103,
+  "correlations": {
+    "TSLA_market": 0.6536551244360614,
+    "SPCX_market": 0.4486592193849357,
+    "SPCX_TSLA": 0.35620251212909826,
+    "OLS_residual_correlation": 0.09304993944536276
+  },
+  "estimation_period": [
+    "2026-06-22",
+    "2026-10-13"
+  ],
+  "estimation_returns": 80,
+  "event_dates": [
+    "2026-10-19",
+    "2026-10-20",
+    "2026-10-21",
+    "2026-10-22",
+    "2026-10-23"
+  ],
+  "models": {
+    "SPCX": {
+      "alpha_daily": -0.0024776528808952616,
+      "beta": 2.898012832227152,
+      "residual_sigma_df_n_minus_2": 0.0434047991102498,
+      "abnormal_returns_pct": [
+        0.38553230691550433,
+        -0.6901064090574314,
+        6.366755386417136,
+        -5.389609702729372,
+        3.6438791354708018
+      ]
+    },
+    "TSLA": {
+      "alpha_daily": -0.0018870217521455754,
+      "beta": 3.0884003904079447,
+      "residual_sigma_df_n_minus_2": 0.02513303886250784,
+      "abnormal_returns_pct": [
+        2.6877527746702863,
+        0.8467440828894893,
+        1.8171629850029303,
+        0.8442404196344708,
+        1.1606118121033684
+      ]
+    }
+  },
+  "formal_significance_test_performed": false
+}
