@@ -1602,15 +1602,15 @@
   },
   {
     "id": "p-clp",
-    "title": "Cremers, Lauterbach & Pajuste：雙層股權的生命週期",
+    "title": "雙層股權的估值溢價，會隨時間消失嗎？",
     "chapter": "04 · 控制權與 Tesla",
     "kind": "paper",
     "paper": {
       "cite": "Cremers, Lauterbach & Pajuste（2024）",
       "journal": "Review of Corporate Finance Studies 13(2)",
-      "sample": "美國雙層股權公司，與同業單一股權公司比較",
-      "finding": "雙層股權上市時常有溢價，約 6–9 年後消失。",
-      "prediction": "SpaceX 成立 24 年，方向不明。"
+      "sample": "美國 1980–2019 年雙層與單一股權公司",
+      "finding": "IPO 初期平均可能有溢價，隨上市時間消退；約上市後 6–9 年趨於消失。",
+      "prediction": "公司成立年數不等於上市年數；SpaceX 的溢價或折價仍待同業估值比較驗證。"
     },
     "chart": {
       "type": "line",
@@ -1656,54 +1656,24 @@
       "marks": [
         {
           "index": 0,
-          "label": "上市時常有溢價"
+          "label": "IPO 初期可能有溢價"
         },
         {
           "index": 8,
-          "label": "約 6–9 年後與同業相近",
+          "label": "約 6–9 年溢價趨消失",
           "below": true
         }
       ]
     },
-    "source": "圖為依研究結論繪製的示意，縱軸為相對同業單一股權公司的估值差異，基準 0＝估值相同。"
-  },
-  {
-    "id": "dual-age",
-    "title": "上市才半年，公司卻已成立 24 年",
-    "chapter": "04 · 控制權與 Tesla",
-    "kind": "chart",
-    "chart": {
-      "type": "bars",
-      "unit": " 年",
-      "decimals": 1,
-      "labels": [
-        "上市至今",
-        "溢價消失（上市後）",
-        "成立至今"
-      ],
-      "series": [
-        {
-          "name": "年",
-          "color": "#ffffff",
-          "values": [
-            0.4,
-            7.5,
-            24
-          ]
-        }
-      ],
-      "highlight": [
-        1
-      ]
-    },
-    "verdicts": [
-      {
-        "name": "Cremers et al.",
-        "label": "待觀察"
-      }
+    "source": "Cremers, M., Lauterbach, B., & Pajuste, A. (2024). The Life Cycle of Dual-Class Firm Valuation. The Review of Corporate Finance Studies, 13(2), 459–493. DOI: 10.1093/rcfs/cfac026。SpaceX 事實：S04、S02 註1（成立年）；S01、S02（IPO）。",
+    "points": [
+      "樣本平均趨勢，非每家公司必然結果；也不是雙層股權制度的法律存續期限。",
+      "可能機制：內部人投票權與現金流權差距擴大，代理成本增加。",
+      "2002 年成立 → 約 24 年；2026 年 6 月 IPO → 截至 2026 年 11 月約 5 個月。",
+      "不能因成立 24 年，就認定其估值溢價已消失；上市約半年也不代表必然有溢價。",
+      "是否實際存在雙層股權估值溢價，仍須透過適當的同業估值比較驗證。"
     ],
-    "aside": "上市才半年，但公司已成立 24 年。\n溢價期理論是否適用，方向不明。",
-    "source": "來源：Cremers, Lauterbach & Pajuste（2024），6–9 年取中點 7.5 年；S04、S02 註1（2002 年成立）。"
+    "aside": "當控制權與經濟利益逐漸分離，控制股東可能產生哪些代理問題？"
   },
   {
     "id": "p-tunnel",
