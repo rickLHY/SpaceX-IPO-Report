@@ -518,7 +518,7 @@
     "chapter": "02 · 怎麼定價",
     "kind": "statement",
     "statement": "為什麼 IPO 常常在第一天大漲？",
-    "aside": "是為了吸引認購、詢價只部分調整，還是故意折價買市場知名度？"
+    "aside": "是為了吸引認購，還是故意折價買市場知名度？"
   },
   {
     "id": "p-rock",
@@ -577,56 +577,6 @@
     ],
     "aside": "首日 +19.22%，方向與 Rock 一致。\n單一案例無法證明折價來自贏家詛咒（亦可能源於創造市場知名度、降低發行失敗風險或首日情緒追捧）。",
     "source": "歷史平均：Loughran & Ritter（2004）；SpaceX：S04 發行價、S08 首日收盤。"
-  },
-  {
-    "id": "p-hanley",
-    "title": "Benveniste & Spindt、Hanley：詢價圈購與部分調整",
-    "chapter": "02 · 怎麼定價",
-    "kind": "paper",
-    "paper": {
-      "cite": "Benveniste & Spindt（1989）；Hanley（1993）",
-      "journal": "Journal of Financial Economics 24(2)；34(2)",
-      "sample": "理論模型；美國 IPO",
-      "finding": "最終價格高於初步價格區間的 IPO，首日漲最多：價格只部分調整。",
-      "prediction": "需比較最終價與價格區間。"
-    }
-  },
-  {
-    "id": "fixed-price",
-    "title": "價格一開始就固定在 135 美元",
-    "chapter": "02 · 怎麼定價",
-    "kind": "chart",
-    "chart": {
-      "type": "bars",
-      "decimals": 2,
-      "labels": [
-        "6/3 初步公開說明書",
-        "6/11 最終發行價",
-        "6/12 首日收盤"
-      ],
-      "series": [
-        {
-          "name": "USD／股",
-          "color": "#ffffff",
-          "values": [
-            135,
-            135,
-            160.95
-          ]
-        }
-      ],
-      "highlight": [
-        2
-      ]
-    },
-    "aside": "沒有價格區間，Hanley 的比較基準不存在。\n只能說未上修卻上漲，無法直接檢驗部分調整。",
-    "verdicts": [
-      {
-        "name": "Hanley",
-        "label": "無法直接檢驗"
-      }
-    ],
-    "source": "來源：S19 S-1/A（2026/6/3）封面預告每股 135 美元；S20 定價 FWP（2026/6/11）；S08 首日收盤。"
   },
   {
     "id": "p-lr04",
@@ -711,8 +661,8 @@
     "title": "第 02 章小結",
     "chapter": "02 · 怎麼定價",
     "kind": "statement",
-    "statement": "固定價格、未上修，首日上漲 19%。",
-    "aside": "Rock 方向一致；Loughran & Ritter 符合；Hanley 缺少價格區間，無法直接檢驗。"
+    "statement": "固定價格發行，首日上漲 19%。",
+    "aside": "Rock 方向一致；潛在差額約 165.8 億美元（發行成本的 29 倍），換取募資成功與市場知名度。"
   },
   {
     "id": "q3",
