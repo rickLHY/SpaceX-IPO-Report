@@ -1,0 +1,19 @@
+/* Only the Tesla materiality slide; the shared stage scales for mobile. */
+[data-deck="space-x-ipo"] .tesla-exposure { display: grid; grid-template-columns: 3fr 2fr; gap: 48px; }
+[data-deck="space-x-ipo"] .exposure-unit { color: var(--muted); font-size: 21px; margin: 0 0 24px; }
+[data-deck="space-x-ipo"] .exposure-ratios figure { margin: 0 0 20px; }
+[data-deck="space-x-ipo"] .exposure-ratios figcaption { font-size: 26px; line-height: 1.4; }
+[data-deck="space-x-ipo"] .exposure-values { display: flex; justify-content: space-between; align-items: baseline; margin: 12px 0; }
+[data-deck="space-x-ipo"] .exposure-values strong { font-size: 48px; color: #5aa9ff; line-height: 1.2; }
+[data-deck="space-x-ipo"] .exposure-values > span { font-size: 26px; font-variant-numeric: tabular-nums; }
+[data-deck="space-x-ipo"] .exposure-track { height: 24px; background: #25272b; }
+[data-deck="space-x-ipo"] .exposure-track > span { display: block; height: 100%; background: #5aa9ff; }
+[data-deck="space-x-ipo"] .exposure-scale { display: flex; justify-content: space-between; color: var(--muted); font-size: 18px; margin-top: 6px; }
+[data-deck="space-x-ipo"] .exposure-basis { color: var(--muted); font-size: 20px; margin: 6px 0 0; }
+[data-deck="space-x-ipo"] .tesla-exposure aside { border-left: 1px solid var(--border); padding-left: 32px; display: flex; flex-direction: column; gap: 18px; }
+[data-deck="space-x-ipo"] .tesla-exposure aside p { margin: 0; }
+[data-deck="space-x-ipo"] .exposure-metric { font-size: 26px; line-height: 1.4; color: #5aa9ff; }
+[data-deck="space-x-ipo"] .exposure-conclusion { font-size: 29px; line-height: 1.5; }
+[data-deck="space-x-ipo"] .exposure-caution { font-size: 21px; line-height: 1.5; color: var(--prose); }
+[data-deck="space-x-ipo"] .tesla-exposure a { color: var(--muted); font-size: 19px; margin-top: auto; }
+[data-deck="space-x-ipo"] [data-slide="tesla-accounts"] .wk-source { font-size: 19px; }

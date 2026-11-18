@@ -1773,25 +1773,38 @@
     "chart": {
       "type": "bars",
       "horizontal": true,
+      "stacked": true,
+      "unit": " USD millions",
       "labels": [
-        "持有 SpaceX 股票（投資成本）",
-        "Megapack 收入：前九月",
-        "Megapack 收入：Q3"
+        "SpaceX 股權投資／Tesla 總資產",
+        "SpaceX 相關 Megapack 營收／Tesla 前三季總營收"
       ],
       "series": [
         {
-          "name": "USD million",
+          "name": "SpaceX 相關金額",
           "color": "#5aa9ff",
           "values": [
-            2000,
-            626,
-            221
+            2865,
+            626
+          ]
+        },
+        {
+          "name": "Tesla 其餘金額",
+          "color": "#25272b",
+          "values": [
+            154652,
+            78043
           ]
         }
       ]
     },
-    "aside": "Tesla 持股不到 1%、訂單 6.26 億美元。\n曝險規模都小。",
-    "source": "單位：USD million。來源：S12 註1、註13。"
+    "aside": "股權投資占總資產 1.82%\nSpaceX 相關營收占總營收 0.80%\n直接財務曝險相對有限，但股價波動仍可能影響 Tesla 的投資評價損益。",
+    "source": "來源：Tesla, Inc. (2026), Q3 Form 10-Q（S12）：Consolidated Balance Sheets、Statements of Operations、Note 2、Note 13。計算基準日：2026/9/30；營收期間：2026 年前三季。單位：USD millions。",
+    "points": [
+      "依股權投資占資產比例與相關營收占比衡量。",
+      "營收占比衡量商業關聯，不等於信用損失曝險；股權投資與營收不可相加。"
+    ],
+    "notes": "SEC 原始文件：https://www.sec.gov/Archives/edgar/data/1318605/000162828026066775/tsla-20260930.htm。原始成本 2,000 不代表目前市值；Note 2 公允價值為 2,865。2,865 ÷ 157,517 × 100% = 1.818851…%；626 ÷ 78,669 × 100% = 0.795739…%。Tesla 持有 SpaceX 不到 1% 是持股比例，並非此處占 Tesla 總資產比例；本頁不推論兩家公司股價間的因果關係。"
   },
   {
     "id": "tesla-prices",
