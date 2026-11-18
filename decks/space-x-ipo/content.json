@@ -152,7 +152,7 @@
   },
   {
     "id": "lit-map",
-    "title": "四個問題、十七篇研究",
+    "title": "四個問題、十六篇研究",
     "chapter": "00 · Overview",
     "kind": "chart",
     "chart": {
@@ -217,13 +217,6 @@
           "label": "Brau & Fawcett・Alti",
           "lane": 0,
           "level": 1,
-          "anchor": "start"
-        },
-        {
-          "t": 2008,
-          "label": "Kim & Weisbach",
-          "lane": 0,
-          "level": 2,
           "anchor": "start"
         },
         {
@@ -306,7 +299,7 @@
     "chapter": "01 · 為什麼上市",
     "kind": "statement",
     "statement": "SpaceX 為什麼要上市？",
-    "aside": "融資順位 → 實證修正 → 資金用途 → CFO 怎麼說。"
+    "aside": "融資順位 → 實證修正 → CFO 怎麼說。"
   },
   {
     "id": "p-mm",
@@ -436,61 +429,6 @@
       {
         "name": "Frank & Goyal",
         "label": "符合"
-      }
-    ]
-  },
-  {
-    "id": "p-kw",
-    "title": "Kim & Weisbach：上市資金用在哪裡",
-    "chapter": "01 · 為什麼上市",
-    "kind": "paper",
-    "paper": {
-      "cite": "Kim & Weisbach（2008）",
-      "journal": "Journal of Financial Economics 87(2)",
-      "sample": "38 國、1990–2003 年，約 1.7 萬件 IPO 與 1.3 萬件現金增資",
-      "finding": "新資金主要用於研發與資本支出；高估值公司也會多存現金。",
-      "prediction": "上市後投資應明顯增加。"
-    }
-  },
-  {
-    "id": "investment",
-    "title": "上市後投資加速：資金用在哪裡",
-    "chapter": "01 · 為什麼上市",
-    "kind": "chart",
-    "chart": {
-      "type": "bars",
-      "labels": [
-        "營運現金流",
-        "PPE 購置支出",
-        "期末債務"
-      ],
-      "series": [
-        {
-          "name": "上市前",
-          "color": "#6c727b",
-          "values": [
-            4120,
-            13846,
-            22896
-          ]
-        },
-        {
-          "name": "上市後",
-          "color": "#ffffff",
-          "values": [
-            13097,
-            48069,
-            38844
-          ]
-        }
-      ]
-    },
-    "aside": "投資規模放大 3.5 倍，與「為投資而融資」一致。\n但前九月含上市前月份、業務範圍也改變，無法確認是 IPO 資金造成。",
-    "source": "單位：USD million。前九月（2025 vs 2026，橫跨上市前後）；債務為年底 vs 9/30。來源：S02。",
-    "verdicts": [
-      {
-        "name": "Kim & Weisbach",
-        "label": "方向一致"
       }
     ]
   },
@@ -690,7 +628,7 @@
     "chapter": "01 · 為什麼上市",
     "kind": "statement",
     "statement": "為支應遠超現金流的投資而上市，並取得可用於併購的股票。",
-    "aside": "符合：Frank & Goyal、Brau & Fawcett；方向一致：Kim & Weisbach；部分符合：Myers & Majluf；尚不能判斷：擇時。"
+    "aside": "符合：Frank & Goyal、Brau & Fawcett；部分符合：Myers & Majluf；尚不能判斷：擇時。"
   },
   {
     "id": "q2",
@@ -2644,7 +2582,7 @@
   },
   {
     "id": "scorecard",
-    "title": "總表：十七篇研究的檢驗結果",
+    "title": "總表：十六篇研究的檢驗結果",
     "chapter": "05 · Conclusion",
     "kind": "chart",
     "chart": {
@@ -2683,11 +2621,6 @@
           "label": "Loughran & Ritter（2004）",
           "col": 3,
           "note": "潛在差額約發行成本 29 倍（估算）"
-        },
-        {
-          "label": "Kim & Weisbach（2008）",
-          "col": 2,
-          "note": "投資放大，但因果未確認"
         },
         {
           "label": "Rock（1986）",
@@ -2816,7 +2749,7 @@
         {
           "from": 2026.9,
           "to": 2029.5,
-          "label": "每季財報：營運現金流能否追上投資（成長融資、Kim & Weisbach）"
+          "label": "每季財報：營運現金流能否追上投資（成長融資）"
         }
       ],
       "events": [
@@ -2930,11 +2863,6 @@
         "Johnson, La Porta et al.（2000）",
         "Tunneling",
         "American Econ. Review 90(2)"
-      ],
-      [
-        "Kim & Weisbach（2008）",
-        "Motivations for Public Equity Offers: An International Perspective",
-        "J. Financial Economics 87(2)"
       ],
       [
         "Loughran & Ritter（2004）",
