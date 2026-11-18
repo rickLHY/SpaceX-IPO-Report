@@ -1,0 +1,41 @@
+/* SpaceX-style black theme, scoped to this deck only. */
+html [data-deck="space-x-ipo"] {
+  --canvas: #000000;
+  --surface: #0c0d0f;
+  --ink: #f4f5f7;
+  --muted: #8b9099;
+  --border: #25272b;
+  --blue: #ffffff;
+  --accent: #ffffff;
+  --focus-bg: #1a1c20;
+  --green: #4cc38a;
+  --success-bg: #0f2a1d;
+  --amber: #f0b44c;
+  --warning-bg: #2c2210;
+  --red: #ff6b5e;
+  --error-bg: #2e1311;
+  --c-primary: #ffffff;
+  --c-secondary: #5aa9ff;
+  --c-muted: #6c727b;
+  --c-pos: #4cc38a;
+  --c-neg: #ff6b5e;
+  --c-warn: #f0b44c;
+  --prose: #c4c8ce;
+}
+[data-deck="space-x-ipo"] .presentation-player { background: #000; --player-ink: #e9eaec; --player-muted: #8b9099; --player-accent: #ffffff; }
+[data-deck="space-x-ipo"] .presentation-controls { background: #0e0f11f2; border-color: #2a2c30; box-shadow: 0 8px 28px #0008; }
+[data-deck="space-x-ipo"] .presentation-player .icon-button:hover { background: #1d1f23; }
+[data-deck="space-x-ipo"] .presentation-player .control-divider { background: #2a2c30; }
+[data-deck="space-x-ipo"] .presentation-player .step-dots span { background: #3a3d42; }
+
+/* Header: wide-tracked uppercase eyebrow, light title, hairline rule. */
+[data-deck="space-x-ipo"] .eyebrow { text-transform: uppercase; letter-spacing: 5px; font-size: 16px; color: var(--muted); }
+[data-deck="space-x-ipo"] .eyebrow span:first-child { color: var(--muted); }
+[data-deck="space-x-ipo"] .slide-header h1 { font-weight: 500; letter-spacing: .5px; font-size: 50px; color: #fff; }
+[data-deck="space-x-ipo"] .slide-header::after { content: ''; position: absolute; left: 0; width: 72px; bottom: -10px; height: 2px; background: #fff; }
+[data-deck="space-x-ipo"] .slide-footer > span:first-child { text-transform: uppercase; letter-spacing: 5px; font-size: 13px; }
+[data-deck="space-x-ipo"] .wk-intro { color: var(--prose); font-size: 27px; }
+[data-deck="space-x-ipo"] .wk-source { color: #8a9099; font-size: 21px; }
+[data-deck="space-x-ipo"] .wk-table th { color: var(--muted); text-transform: uppercase; letter-spacing: 1px; }
+[data-deck="space-x-ipo"] .wk-table tbody tr:nth-child(even) { background: transparent; }
+[data-deck="space-x-ipo"] .wk-table td { border-color: #1c1e21; }

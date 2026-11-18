@@ -1,0 +1,38 @@
+{
+  "ritter": {
+    "name": "Jay Ritter",
+    "author": "Xuthoria",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:ASSA_2026_-_Jay_Ritter_03_(cropped).jpg"
+  },
+  "zingales": {
+    "name": "Luigi Zingales",
+    "author": "USV",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Luigi_Zingales_2012.jpg"
+  },
+  "pagano": {
+    "name": "Marco Pagano",
+    "author": "Aellin Kines",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:Marco_Pagano.jpg"
+  },
+  "panetta": {
+    "name": "Fabio Panetta",
+    "author": "Quirinale",
+    "license": "Attribution",
+    "source": "https://commons.wikimedia.org/wiki/File:Fabio_Panetta_2023_(cropped).jpg"
+  },
+  "shleifer": {
+    "name": "Andrei Shleifer",
+    "author": "Manuel Castells",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Andrei_Shleifer.jpg"
+  },
+  "johnson": {
+    "name": "Simon Johnson",
+    "author": "John Sears",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Simon_Johnson,_2024_Nobel_Prize_Laureate_in_Economics_4_(cropped).jpg"
+  }
+}

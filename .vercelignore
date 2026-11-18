@@ -1,0 +1,7 @@
+node_modules
+dist
+.git
+*.zip
+.DS_Store
+tests
+Start-Presentation.command

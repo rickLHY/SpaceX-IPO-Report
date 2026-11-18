@@ -1,0 +1,15 @@
+[data-deck] [data-slide="recovery"] .wk-body{gap:12px}
+[data-deck] .recovery-combined{display:flex;flex:1;min-height:0;flex-direction:column;gap:12px}
+[data-deck] .recovery-combined svg{display:block;width:100%;min-height:0;flex:1;overflow:visible;font-family:var(--font-sans)}
+[data-deck] .recovery-axis{stroke:#697078;stroke-width:1.5}
+[data-deck] .recovery-yearline{stroke:#25282b;stroke-width:1}
+[data-deck] .recovery-year{fill:var(--muted);font-size:21px}
+[data-deck] .recovery-legend{fill:#9aa9b8;font-size:21px}
+[data-deck] .recovery-leader{stroke:#656a70;stroke-dasharray:3 5;stroke-width:1}
+[data-deck] .recovery-event{fill:var(--ink);font-size:25px;font-weight:600;paint-order:stroke;stroke:var(--canvas);stroke-width:9;stroke-linejoin:round}
+[data-deck] .recovery-event-sub{fill:var(--muted);font-size:20px;paint-order:stroke;stroke:var(--canvas);stroke-width:8;stroke-linejoin:round}
+[data-deck] .stock-reveal{transform-box:fill-box;transform-origin:left;animation:recovery-stock-reveal 1s linear .15s both}
+@keyframes recovery-stock-reveal{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+[data-deck] .recovery-caption{font-size:23px;line-height:1.5;color:var(--ink);margin:0}
+[data-deck] .recovery-price-source{font-size:18px;color:var(--muted);margin:0}
+[data-deck] [data-slide="recovery"] .wk-source{font-size:17px}

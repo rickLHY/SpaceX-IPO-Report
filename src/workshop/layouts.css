@@ -1,0 +1,53 @@
+[data-deck] .wk-subtitle{font-size:40px;line-height:1.5;color:var(--muted);margin-top:30px}
+[data-deck] .cover-title h1{font-size:132px}
+[data-deck] .wk-body{display:flex;flex-direction:column;gap:30px;padding-bottom:16px}
+[data-deck] .wk-intro{font-size:30px;line-height:1.5;max-width:1350px}
+[data-deck] .wk-cards{display:grid;gap:28px;flex:1;min-height:0;max-height:475px}
+[data-deck] .wk-card{border:1px solid var(--border);border-radius:16px;padding:38px;background:var(--canvas);display:flex;flex-direction:column;gap:26px}
+[data-deck] .wk-card>span{font-size:28px;font-weight:600;color:var(--blue)}
+[data-deck] .wk-card strong{font-size:66px;line-height:1.15;font-weight:600;letter-spacing:-2px}
+[data-deck] .wk-card p{font-size:30px;line-height:1.6}
+[data-deck] .wk-source{font-size:21px;line-height:1.45;color:var(--muted);margin-top:auto;max-width:1350px}
+[data-deck] .wk-table{width:100%;border-collapse:collapse;font-size:27px;line-height:1.45}
+[data-deck] .wk-table th{text-align:left;color:var(--muted);font-weight:500;padding:14px 18px;border-bottom:2px solid var(--border)}
+[data-deck] .wk-table td{padding:17px 18px;border-bottom:1px solid var(--border)}
+[data-deck] .wk-table tbody tr:nth-child(even){background:var(--surface)}
+[data-deck] .wk-chart{height:510px;min-height:0}
+[data-deck] .wk-chart svg{height:455px;width:100%;overflow:visible}
+[data-deck] .wk-chart text{font-size:22px;fill:var(--muted);font-family:var(--font-sans)}
+[data-deck] .wk-legend{display:flex;gap:32px;justify-content:center;font-size:24px}
+[data-deck] .wk-legend i{display:inline-block;width:28px;height:4px;vertical-align:middle;margin-right:12px}
+[data-deck] .wk-cards.four{gap:22px}
+[data-deck] .wk-cards.four .wk-card{padding:30px;gap:18px}
+[data-deck] .wk-cards.four .wk-card>span{font-size:24px}
+[data-deck] .wk-cards.four .wk-card strong{font-size:46px;letter-spacing:-1px}
+[data-deck] .wk-cards.four .wk-card p{font-size:24px;line-height:1.55}
+[data-deck] .wk-table.dense{font-size:23px;line-height:1.45}
+[data-deck] .wk-table.dense th{padding:10px 14px;font-size:21px}
+[data-deck] .wk-table.dense td{padding:11px 14px;vertical-align:top}
+[data-deck] .wk-table.dense td:first-child{font-weight:600;min-width:180px;max-width:300px}
+[data-deck] .wk-verdict{display:inline-block;padding:3px 12px;border-radius:999px;font-weight:600;white-space:nowrap}
+[data-deck] .wk-verdict.ok{background:var(--success-bg);color:var(--green)}
+[data-deck] .wk-verdict.part{background:var(--focus-bg);color:var(--blue)}
+[data-deck] .wk-verdict.no{background:var(--error-bg);color:var(--red)}
+[data-deck] .wk-verdict.open{background:var(--warning-bg);color:var(--amber)}
+[data-deck] .wk-list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:18px}
+[data-deck] .wk-list li{display:grid;grid-template-columns:92px 1fr;gap:26px;align-items:start;padding:20px 28px;border:1px solid var(--border);border-radius:16px;background:var(--canvas)}
+[data-deck] .wk-list-label{font-size:40px;font-weight:600;color:var(--blue);line-height:1.1;font-variant-numeric:tabular-nums}
+[data-deck] .wk-list strong{display:block;font-size:31px;font-weight:600;line-height:1.3}
+[data-deck] .wk-list p{font-size:23px;line-height:1.5;color:var(--muted);margin-top:6px}
+[data-deck] .wk-list.dense{gap:12px}
+[data-deck] .wk-list.dense li{padding:14px 26px}
+[data-deck] .wk-list.dense strong{font-size:27px}
+[data-deck] .wk-list.dense p{font-size:21px;margin-top:4px}
+[data-deck] .wk-key{display:flex;flex-direction:column;gap:34px;border-left:8px solid var(--blue);padding:8px 0 8px 44px}
+[data-deck] .wk-statement{font-size:46px;line-height:1.4;font-weight:600;letter-spacing:-.5px;max-width:1340px}
+[data-deck] .wk-key ul{margin:0;padding-left:1.1em;display:flex;flex-direction:column;gap:16px}
+[data-deck] .wk-key li{font-size:28px;line-height:1.5;color:var(--ink)}
+[data-deck] .wk-key li::marker{color:var(--blue)}
+[data-deck] .wk-chart{height:auto}
+[data-deck] .wk-chart svg{height:420px}
+[data-deck] .wk-table.compact{font-size:20px;line-height:1.35}
+[data-deck] .wk-table.compact th{padding:6px 12px;font-size:19px}
+[data-deck] .wk-table.compact td{padding:7px 12px;white-space:nowrap}
+[data-deck] .wk-table.compact td:first-child{max-width:none;white-space:nowrap}

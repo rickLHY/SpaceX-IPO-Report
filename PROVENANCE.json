@@ -1,0 +1,10 @@
+{
+  "source": "https://github.com/ilsao/slides",
+  "commit": "ec02c703d2a4f50afeb51f4836a1075697130617",
+  "retrieved": "2026-11-14",
+  "reference_deck": "Backend Workshop",
+  "retained": "shared player, gallery, theme CSS, fonts and font licenses, navigation tests",
+  "adapted": "generic data-driven layouts; removed backend course content and content generation dependency",
+  "license_note": "No repository-wide LICENSE found at this commit. Preserve author attribution; confirm rights before redistributing. Font licenses retained.",
+  "local_dependency_updates": "npm audit fix: compatible patched Vite/Vitest/source-map dependencies; tests/build rechecked."
+}

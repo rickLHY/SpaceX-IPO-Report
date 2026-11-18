@@ -1,0 +1,30 @@
+[
+ {
+  "file": "musk.jpg",
+  "name": "Elon Musk",
+  "source": "https://commons.wikimedia.org/wiki/File:Elon_Musk_Colorado_2022_(cropped2).jpg",
+  "author": "U.S. Air Force / Trevor Cokley",
+  "license": "Public domain"
+ },
+ {
+  "file": "shotwell.jpg",
+  "name": "Gwynne Shotwell",
+  "source": "https://commons.wikimedia.org/wiki/File:Gwynne_Shotwell_at_2018_Commercial_Crew_announcement.jpg",
+  "author": "NASA/Bill Ingalls",
+  "license": "Public domain"
+ },
+ {
+  "file": "nosek.jpg",
+  "name": "Luke Nosek",
+  "source": "https://commons.wikimedia.org/wiki/File:Luke_Nosek_(8518034389)_(cropped).jpg",
+  "author": "Loic Le Meur",
+  "license": "CC BY 2.0"
+ },
+ {
+  "file": "jurvetson.jpg",
+  "name": "Steve Jurvetson",
+  "source": "https://commons.wikimedia.org/wiki/File:Steve_Jurvetson_2025.jpg",
+  "author": "Steve Jurvetson",
+  "license": "CC BY 4.0"
+ }
+]

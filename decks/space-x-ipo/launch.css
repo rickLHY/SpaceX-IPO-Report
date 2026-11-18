@@ -1,0 +1,46 @@
+/* A continuous flight metaphor; all event photography is separately credited. */
+[data-deck] .launch-scene{position:absolute;inset:0;background:#000000;color:#fff;overflow:hidden;isolation:isolate;font-family:var(--font-sans);--flight-ease:cubic-bezier(.22,.7,.2,1)}
+.launch-photo-stack{position:absolute;inset:0 0 0 29%;z-index:-4;background:#000000}
+.launch-photo-stack img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transform:scale(1.04);filter:saturate(.65);transition:opacity 1s ease,transform 6s ease}
+.launch-photo-stack img.is-active{opacity:.82;transform:scale(1)}
+.launch-shade{position:absolute;inset:0;z-index:-3;background:linear-gradient(90deg,#000000 0%,#000000f7 24%,#000000c7 45%,#00000020 74%,#00000055 100%),linear-gradient(0deg,#000000f5 0%,transparent 34%,#00000060 100%)}
+.launch-grain{position:absolute;inset:0;z-index:-2;opacity:.025;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3'/%3E%3C/filter%3E%3Cpath fill='white' filter='url(%23n)' d='M0 0h180v180H0z'/%3E%3C/svg%3E")}
+.launch-stars{position:absolute;inset:-20% 0;z-index:-1;opacity:.18;background-image:radial-gradient(1px 1px at 20% 20%,#fff 98%,transparent),radial-gradient(1px 1px at 80% 60%,#fff 98%,transparent);background-size:137px 181px,271px 239px;animation:launch-stars-drift 36s linear infinite;pointer-events:none}
+.launch-masthead{position:absolute;top:52px;left:96px;right:96px;display:flex;justify-content:space-between;font-size:17px;letter-spacing:3px;color:#c8d4df}
+.launch-masthead i{font-style:normal;color:#68839b;margin:0 18px}
+.launch-copy{position:absolute;left:96px;top:153px;width:790px;animation:launch-copy-in .65s var(--flight-ease) both}
+[data-deck] .launch-year{font-size:132px;line-height:1.04;letter-spacing:-5px;font-weight:500;color:#fff;margin:0 0 25px}
+.launch-kicker{display:block;font-size:18px;letter-spacing:4px;color:#80bdff;margin-bottom:22px}
+[data-deck] .launch-copy h1{font-size:52px;line-height:1.35;letter-spacing:-1px;font-weight:500;max-width:790px;white-space:normal}
+[data-deck] .launch-description{font-size:29px;line-height:1.8;color:#d1dce6;max-width:710px;margin-top:28px}
+.flight-world{position:absolute;inset:0;pointer-events:none;z-index:2}
+.flight-track{position:absolute;top:110px;bottom:104px;left:1280px;border-left:1px dashed #a8cded35;transform:rotate(9deg);transform-origin:bottom}
+.flight-craft{position:absolute;left:var(--flight-x);top:var(--flight-y);width:90px;height:220px;transition:top 1.45s var(--flight-ease),left 1.45s var(--flight-ease);filter:drop-shadow(0 0 15px #78baff40);transform:rotate(7deg)}
+.flight-rocket{width:80px;height:240px;position:absolute;top:-80px;left:5px;filter:drop-shadow(2px 7px 6px #0008)}
+.flight-flame{position:absolute;left:31px;top:126px;width:28px;height:150px;border-radius:30% 30% 65% 65%;background:linear-gradient(#fff 0%,#b2eaff 12%,#50a5ffab 45%,#f8a24f70 70%,transparent);transform-origin:top;filter:blur(2px);opacity:0}
+.flight-flame i{display:block;margin:auto;width:8px;height:95px;background:linear-gradient(#fff,#d8f3ff,transparent);filter:blur(1px)}
+.launch-scene[data-flying=true] .flight-flame{opacity:1;animation:launch-flame-pulse .16s infinite alternate}
+.flight-trail{position:absolute;bottom:30px;left:1227px;width:10px;height:var(--trail-height);background:linear-gradient(#a3d5fc40,#f2f8ff08,transparent);filter:blur(5px);transform:rotate(8deg);transform-origin:bottom;transition:height 1.45s var(--flight-ease)}
+.flight-ground{position:absolute;bottom:23px;left:1060px;width:410px;height:10px;background:#deefff22;filter:blur(8px);border-radius:100%}
+.launch-milestones{position:absolute;bottom:123px;left:96px;width:1000px;display:grid;grid-template-columns:repeat(8,1fr);z-index:3;border-top:1px solid #c8dcf733;padding-top:18px;gap:12px}
+.launch-milestones>div{position:relative;color:#8ca0b3;font-size:17px;letter-spacing:.5px;transition:color .4s}
+.milestone-dot{position:absolute;left:0;top:-23px;width:8px;height:8px;border-radius:50%;background:#536779;box-shadow:0 0 0 5px #000000}
+.launch-milestones .is-current{color:#fff;font-weight:600}
+.is-current .milestone-dot{background:#8bc9ff;box-shadow:0 0 0 5px #000000,0 0 20px #80bfff}
+.is-past .milestone-dot{background:#a7bbcc}
+.launch-photo-credit{position:absolute;left:96px;right:170px;bottom:35px;display:flex;flex-direction:column;gap:8px;color:#b0bfcd;font-size:15px;line-height:1.4;letter-spacing:0}
+.launch-photo-credit small{font-size:13px;color:#8a9caf}
+.launch-progress{position:absolute;right:96px;bottom:37px;font-size:22px;font-variant-numeric:tabular-nums;color:white}
+.launch-progress i{font-style:normal;color:#8b9fb3;font-size:16px}
+.launch-cover-copy{position:absolute;left:96px;top:252px;width:1040px}
+[data-deck] .launch-cover-copy>p{font-size:27px;letter-spacing:3px;color:#bdcfde;margin-bottom:28px}
+[data-deck] .launch-cover-copy h1{font-size:150px;line-height:1;letter-spacing:-6px;font-weight:500}
+.launch-cover-copy em{font-style:normal;color:#83c2ff}
+.launch-cover-rule{height:2px;width:90px;background:#83c2ff;margin:42px 0 30px}
+[data-deck] .launch-cover-copy h2{font-size:28px;font-weight:400;letter-spacing:1px;color:#d0dce7}
+.launch-cover-copy>span{display:block;margin-top:70px;color:#9bb0c4;font-size:19px;letter-spacing:1px}
+@keyframes launch-copy-in{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+@keyframes launch-flame-pulse{from{transform:scaleY(.88);opacity:.82}to{transform:scaleY(1.08);opacity:1}}
+@keyframes launch-stars-drift{to{transform:translateY(150px)}}
+.launch-scene[data-quiet=true] *{animation:none!important;transition:none!important}
+@media(prefers-reduced-motion:reduce){.launch-scene *{animation:none!important;transition:none!important}}
