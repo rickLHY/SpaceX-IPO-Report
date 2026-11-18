@@ -152,7 +152,7 @@
   },
   {
     "id": "lit-map",
-    "title": "四個問題、十六篇研究",
+    "title": "四個問題、十四篇研究",
     "chapter": "00 · Overview",
     "kind": "chart",
     "chart": {
@@ -199,13 +199,6 @@
           "level": 1
         },
         {
-          "t": 2002,
-          "label": "Baker & Wurgler",
-          "lane": 0,
-          "level": 1,
-          "anchor": "end"
-        },
-        {
           "t": 2003,
           "label": "Frank & Goyal",
           "lane": 0,
@@ -214,7 +207,7 @@
         },
         {
           "t": 2006,
-          "label": "Brau & Fawcett・Alti",
+          "label": "Brau & Fawcett",
           "lane": 0,
           "level": 1,
           "anchor": "start"
@@ -433,117 +426,6 @@
     ]
   },
   {
-    "id": "p-bw",
-    "title": "Baker & Wurgler vs Alti：市場擇時的效果有多久",
-    "chapter": "01 · 為什麼上市",
-    "kind": "paper",
-    "paper": {
-      "cite": "Baker & Wurgler（2002）；Alti（2006）",
-      "journal": "Journal of Finance 57(1)；61(4)",
-      "sample": "美國上市公司；熱門／冷門市場的 IPO",
-      "finding": "B&W：高估值時發股，影響長久；Alti：效果兩年內消失。",
-      "prediction": "可能在估值高點上市，但影響未必長久。"
-    },
-    "chart": {
-      "type": "line",
-      "hideY": true,
-      "baseline": 0,
-      "series": [
-        {
-          "name": "Baker & Wurgler（示意）",
-          "color": "#6c727b",
-          "values": [
-            100,
-            93,
-            87,
-            81,
-            76,
-            71,
-            66,
-            62,
-            57,
-            54,
-            50
-          ]
-        },
-        {
-          "name": "Alti（示意）",
-          "color": "#ffffff",
-          "values": [
-            100,
-            45,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "xTicks": [
-        {
-          "index": 0,
-          "label": "上市"
-        },
-        {
-          "index": 2,
-          "label": "2 年"
-        },
-        {
-          "index": 5,
-          "label": "5 年"
-        },
-        {
-          "index": 10,
-          "label": "10 年"
-        }
-      ]
-    },
-    "source": "圖為依兩篇研究的文字描述繪製的示意，縱軸為擇時效果的剩餘比例，不是原文數據。"
-  },
-  {
-    "id": "timing",
-    "title": "上市時機：需求熱絡，但缺少估值基準",
-    "chapter": "01 · 為什麼上市",
-    "kind": "chart",
-    "chart": {
-      "type": "bars",
-      "unit": "%",
-      "decimals": 1,
-      "signed": true,
-      "labels": [
-        "首日 6/12",
-        "首週 6/18",
-        "首月 7/10",
-        "三個月 9/11"
-      ],
-      "series": [
-        {
-          "name": "SPCX 自發行價 135 美元起算",
-          "color": "#ffffff",
-          "values": [
-            19.22,
-            37.04,
-            7.63,
-            12.01
-          ]
-        }
-      ]
-    },
-    "verdicts": [
-      {
-        "name": "Baker & Wurgler / Alti",
-        "label": "尚不能判斷"
-      }
-    ],
-    "aside": "首週 +37%，需求熱絡。\n沒有上市同業可比，無法判斷是否在估值高點。",
-    "source": "來源：S04 發行價；S08 Yahoo 日行情。"
-  },
-  {
     "id": "p-bf",
     "title": "Brau & Fawcett：CFO 怎麼說",
     "chapter": "01 · 為什麼上市",
@@ -628,7 +510,7 @@
     "chapter": "01 · 為什麼上市",
     "kind": "statement",
     "statement": "為支應遠超現金流的投資而上市，並取得可用於併購的股票。",
-    "aside": "符合：Frank & Goyal、Brau & Fawcett；部分符合：Myers & Majluf；尚不能判斷：擇時。"
+    "aside": "符合：Frank & Goyal、Brau & Fawcett；部分符合：Myers & Majluf。"
   },
   {
     "id": "q2",
@@ -2582,7 +2464,7 @@
   },
   {
     "id": "scorecard",
-    "title": "總表：十六篇研究的檢驗結果",
+    "title": "總表：十四篇研究的檢驗結果",
     "chapter": "05 · Conclusion",
     "kind": "chart",
     "chart": {
@@ -2641,11 +2523,6 @@
           "label": "Hanley（1993）",
           "col": 0,
           "note": "沒有價格區間"
-        },
-        {
-          "label": "Baker & Wurgler・Alti",
-          "col": 1,
-          "note": "缺少同業估值"
         },
         {
           "label": "Brav & Gompers（1997）",
@@ -2789,16 +2666,6 @@
       "期刊"
     ],
     "rows": [
-      [
-        "Alti（2006）",
-        "How Persistent Is the Impact of Market Timing on Capital Structure?",
-        "J. Finance 61(4)"
-      ],
-      [
-        "Baker & Wurgler（2002）",
-        "Market Timing and Capital Structure",
-        "J. Finance 57(1)"
-      ],
       [
         "Benveniste & Spindt（1989）",
         "How Investment Bankers Determine the Offer Price…",

@@ -1,6 +1,6 @@
 # SpaceX IPO Presentation
 
-已套用 Backend Workshop 格式並改為 SpaceX 黑色主題（decks/space-x-ipo/spacex.css），59頁（含附錄參考文獻與資料來源表）、5章（為什麼上市、怎麼定價、上市後表現、控制權與 Tesla、結論；每篇研究後緊接驗證頁），投影片不使用條列、以統計圖呈現；放映網址 http://localhost:5178/space-x-ipo 。
+已套用 Backend Workshop 格式並改為 SpaceX 黑色主題（decks/space-x-ipo/spacex.css），57頁（含附錄參考文獻與資料來源表）、5章（為什麼上市、怎麼定價、上市後表現、控制權與 Tesla、結論；每篇研究後緊接驗證頁），投影片不使用條列、以統計圖呈現；放映網址 http://localhost:5178/space-x-ipo 。
 
 ```sh
 npm ci
